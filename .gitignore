@@ -1,0 +1,13 @@
+# Flutter
+.dart_tool/
+.idea/
+build/
+ios/Pods/
+**/pubspec.lock
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+service_account.json  # ¡muy importante no subir tu clave!
+
