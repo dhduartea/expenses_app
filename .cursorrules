@@ -1,0 +1,25 @@
+# .cursorrules
+
+# Project: Expense Tracker App
+# Description: Rules to guide the AI agent in this project.
+
+# 1. Language Settings
+- Always respond in Spanish.
+- All code must be written in English.
+
+# 2. Project Context
+- This is a mobile app in Flutter to register expenses locally and sync with a Python API.
+- Key files: lib/main.dart, lib/models/expense.dart, services/db_helper.dart, sheets_client.py, main.py.
+
+# 3. Coding Conventions
+- Use Dart null-safety and idiomatic Flutter patterns.
+- Use Pydantic models in Python (FastAPI) for request validation.
+- Follow standard folder structure: lib/screens, lib/models, services/, backend/app/.
+
+# 4. Agent Permissions
+- The agent may suggest edits across multiple files but must confirm before applying.
+- The agent can run terminal commands: installing packages (`flutter pub add sqflite` or `pip install fastapi`), but must ask first.
+
+# 5. Testing
+- Encourage writing unit tests using `flutter_test` and `pytest`.
+

@@ -11,3 +11,29 @@ __pycache__/
 *.py[cod]
 service_account.json  # ¡muy importante no subir tu clave!
 
+# Archivos de credenciales y configuración
+*.env
+.env
+*.key
+*.pem
+credentials.json
+config.json
+secrets.json
+api_keys.json
+
+# Archivos de base de datos local
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de logs
+*.log
+logs/
+debug.log
+
+# Otros archivos sensibles
+.DS_Store
+.env.local
+.env.development
+.env.test
+.env.production
